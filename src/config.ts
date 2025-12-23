@@ -196,9 +196,9 @@ export const siteConfig: SiteConfig = {
 		},
 		cjkFont: {
 			// 中日韩字体 - 作为回退字体
-			fontFamily: "思源宋体",
+			fontFamily: "思源黑体",
 			fontWeight: "500",
-			localFonts: ["思源宋体.ttf"],
+			localFonts: ["思源黑体.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
