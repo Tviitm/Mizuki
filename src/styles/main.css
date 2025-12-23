@@ -26,6 +26,24 @@
   font-display: swap;
 }
 
+/* 导入 思源黑体 字体 */
+@font-face {
+  font-family: "思源黑体";
+  src: url("/assets/font/思源黑体.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* 导入 思源宋体 字体 */
+@font-face {
+  font-family: "思源宋体";
+  src: url("/assets/font/思源宋体.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -718,3 +736,5 @@ html {
 :root:not(.dark) .custom-md spoiler {
   --_spoiler-mask: color-mix(in oklch, var(--primary) 55%, white 45%);
 }
+
+
